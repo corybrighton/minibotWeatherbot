@@ -1,0 +1,24 @@
+﻿The temperature in New York,  New York is 55 degrees.
+The temperature in Los Angeles,  California is 78 degrees.
+The temperature in Chicago,  Illinois is 51 degrees.
+The temperature in Houston,  Texas is 65 degrees.
+The temperature in Phoenix,  Arizona is 94 degrees.
+The temperature in Philadelphia,  Pennsylvania is 57 degrees.
+The temperature in San Antonio,  Texas is 74 degrees.
+The temperature in San Diego,  California is 72 degrees.
+The temperature in Dallas,  Texas is 70 degrees.
+The temperature in San Jose,  California is 68 degrees.
+The temperature in Austin,  Texas is 75 degrees.
+The temperature in Jacksonville,  Florida is 73 degrees.
+The temperature in San Francisco,  California is 63 degrees.
+The temperature in Columbus,  Ohio is 53 degrees.
+The temperature in Fort Worth,  Texas is 73 degrees.
+The temperature in Indianapolis,  Indiana is 58 degrees.
+The temperature in Charlotte,  North Carolina is 64 degrees.
+The temperature in Seattle,  Washington is 55 degrees.
+The temperature in Denver,  Colorado is 77 degrees.
+The temperature in Washington,  District of Columbia is 55 degrees.
+The temperature in Boston,  Massachusetts is 53 degrees.
+The temperature in El Paso,  Texas is 82 degrees.
+The temperature in Detroit,  Michigan is 53 degrees.
+The temperature in Nashville,  Tennessee is 60 degrees.
