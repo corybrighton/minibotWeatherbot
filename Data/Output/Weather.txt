@@ -1,0 +1,30 @@
+﻿1. The temperature in New York,  New York is 57 degrees.
+2. The temperature in Los Angeles,  California is 72 degrees.
+3. The temperature in Chicago,  Illinois is 64 degrees.
+4. The temperature in Houston,  Texas is 86 degrees.
+5. The temperature in Phoenix,  Arizona is 78 degrees.
+6. The temperature in Philadelphia,  Pennsylvania is 62 degrees.
+7. The temperature in San Antonio,  Texas is 85 degrees.
+8. The temperature in San Diego,  California is 72 degrees.
+9. The temperature in Dallas,  Texas is 80 degrees.
+10. The temperature in San Jose,  California is 63 degrees.
+11. The temperature in Austin,  Texas is 87 degrees.
+12. The temperature in Jacksonville,  Florida is 79 degrees.
+13. The temperature in San Francisco,  California is 62 degrees.
+14. The temperature in Columbus,  Ohio is 63 degrees.
+15. The temperature in Fort Worth,  Texas is 80 degrees.
+16. The temperature in Indianapolis,  Indiana is 68 degrees.
+17. The temperature in Charlotte,  North Carolina is 60 degrees.
+18. The temperature in Seattle,  Washington is 46 degrees.
+19. The temperature in Denver,  Colorado is 57 degrees.
+20. The temperature in Washington,  District of Columbia is 65 degrees.
+21. The temperature in Boston,  Massachusetts is 55 degrees.
+22. The temperature in El Paso,  Texas is 73 degrees.
+23. The temperature in Detroit,  Michigan is 60 degrees.
+24. The temperature in Nashville,  Tennessee is 67 degrees.
+25. The temperature in Memphis,  Tennessee is 72 degrees.
+27. The temperature in Amsterdam, Germany is 55 degrees.
+28. The temperature in beijing, China is 51 degrees.
+30. The temperature in Boise, Idaho is 47 degrees.
+31. The temperature in CordaLane, Idaho is 42 degrees.
+33. The temperature in Idaho Falls, Idaho is 42 degrees.

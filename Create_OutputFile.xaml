@@ -5,7 +5,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>546,651</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>546,723</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Create_OutputFile_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="21">
@@ -53,10 +53,9 @@
       <AssemblyReference>System.ServiceModel</AssemblyReference>
       <AssemblyReference>System.ValueTuple</AssemblyReference>
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Create_OutputFile" sap:VirtualizedContainerService.HintSize="526,591" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="To prevent Output file from growning each time the bot is run this process remove Output text file if it exists and creates a new Output file. &#xD;&#xA;The Config file holdes the Output file path &#xD;&#xA;When finished the Output text file will be empty" DisplayName="Create_OutputFile" sap:VirtualizedContainerService.HintSize="526,663" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Boolean" Name="IsPath" />
       <Variable x:TypeArguments="x:String" Name="FilePath" />
@@ -64,9 +63,10 @@
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Assign sap:VirtualizedContainerService.HintSize="484,60" sap2010:WorkflowViewState.IdRef="Assign_1">
+    <Assign DisplayName="File Path Varable" sap:VirtualizedContainerService.HintSize="484,60" sap2010:WorkflowViewState.IdRef="Assign_1">
       <Assign.To>
         <OutArgument x:TypeArguments="x:String">[FilePath]</OutArgument>
       </Assign.To>
@@ -75,11 +75,11 @@
       </Assign.Value>
     </Assign>
     <ui:PathExists DisplayName="Path Exists" Exists="[IsPath]" sap:VirtualizedContainerService.HintSize="484,89" sap2010:WorkflowViewState.IdRef="PathExists_1" Path="[FilePath]" PathType="File" />
-    <If Condition="[IsPath]" sap:VirtualizedContainerService.HintSize="484,208" sap2010:WorkflowViewState.IdRef="If_1">
+    <If Condition="[IsPath]" DisplayName="If Path Exists" sap:VirtualizedContainerService.HintSize="484,208" sap2010:WorkflowViewState.IdRef="If_1">
       <If.Then>
-        <ui:Delete ContinueOnError="{x:Null}" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="Delete_1" Path="[FilePath]" />
+        <ui:Delete ContinueOnError="{x:Null}" DisplayName="Delete Output File" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="Delete_1" Path="[FilePath]" />
       </If.Then>
     </If>
-    <ui:CreateFile ContinueOnError="{x:Null}" Name="{x:Null}" DisplayName="Create File" sap:VirtualizedContainerService.HintSize="484,22" sap2010:WorkflowViewState.IdRef="CreateFile_1" Path="[FilePath]" />
+    <ui:CreateFile ContinueOnError="{x:Null}" Name="{x:Null}" DisplayName="Create Output File" sap:VirtualizedContainerService.HintSize="484,22" sap2010:WorkflowViewState.IdRef="CreateFile_1" Path="[FilePath]" />
   </Sequence>
 </Activity>
